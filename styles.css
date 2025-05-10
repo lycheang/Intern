@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightblue;
+
+}
+#myh1{
+    font-size: 40px;
+    color: black;
+    margin-bottom: 20px;
+    font-family: monospace;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 5px solid;
+    padding: 20px;
+}
+#display{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: monospace;
+}
+#control button{
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: lightgreen;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: monospace;
+    border: none;
+    cursor: pointer;
+}
+#startbtn{
+    background-color: green;
+}
+#stopbtn{
+    background-color: red;
+}
+#cancelbtn{
+    background-color: lightgrey;
+}
